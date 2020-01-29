@@ -10,7 +10,7 @@ import {
 import api from '../api';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-function Songs({navigation}) {
+function Albums({navigation}) {
   const [collections, setCollections] = useState([]);
   const artist = navigation.getParam('artist');
 
@@ -127,4 +127,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Songs;
+export default Albums;

@@ -2,7 +2,7 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import Main from './pages/Main';
 import Menu from './pages/Menu';
-import Collections from './pages/Collections';
+import Albums from './pages/Albums';
 import Songs from './pages/Songs';
 import WebPage from './pages/WebPage';
 
@@ -20,8 +20,8 @@ const Routes = createAppContainer(
         headerShown: false,
       },
     },
-    Collections: {
-      screen: Collections,
+    Albums: {
+      screen: Albums,
     },
     Songs: {
       screen: Songs,

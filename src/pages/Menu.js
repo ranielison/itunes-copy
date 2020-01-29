@@ -19,11 +19,11 @@ function Menu({navigation}) {
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
-          navigation.navigate('Collections', {artist});
+          navigation.navigate('Albums', {artist});
         }}>
         <Icon name="collections" size={50} color="#FFF" />
 
-        <Text style={styles.textButton}>Collections</Text>
+        <Text style={styles.textButton}>Albums</Text>
       </TouchableOpacity>
     </View>
   );
